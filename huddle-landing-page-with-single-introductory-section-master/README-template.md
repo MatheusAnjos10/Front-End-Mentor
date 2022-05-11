@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-(./images/capture.jpg)
+(./images/capture.png)
 
 
 
