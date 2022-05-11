@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(images/bg-desktop.svg);
+    background-color: #674bb0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    width: 200px;
+    margin: 35px;
+}
+
+main {
+    max-width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.right {
+    margin-right: 90px;
+}
+
+.right h2 {
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 39px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.right p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 30;
+    font-size: 19px;
+}
+
+.right button {
+    background-color: white;
+    color: #674bb0;
+    border: none;
+    margin-top: 15px;
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: #964ec9;
+    color: white;
+    transition: all 0.3s;
+}
+
+.left img {
+    width: 521px;
+    margin-left: 110px;
+}
+
+footer {
+    display: flex;
+    justify-content:end;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+footer a {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.671);
+    margin: 10px;
+}
+
+footer a:hover {
+    color: white;
+}
+
+

@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px){
+    
+    main {
+        background-color: #f0f0f0;
+        margin-top: 90px;
+        padding: 50px;
+        box-shadow: none;
+    }
+    
+    .top {
+        width: 275px;
+    }
+    
+    .back{
+        flex-direction: column;
+    }
+
+    .right p {
+        margin-bottom: 20px;
+    }
+}

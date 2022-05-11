@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 250px;
+    height: 460px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 15px -2px black;
+}
+
+.logo img {
+    height: 220px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px -1px black;
+    position: relative;
+}
+
+.logo div {
+    position: absolute;
+    top: 15%;
+    background-color: hsl(178, 100%, 50%, 60%);
+    width: 230px;
+    height: 220px;
+    z-index: 999;
+    opacity: 0;
+}
+
+.logo div:hover {
+    opacity: 1;
+}
+
+#eyes {
+    background: none;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.title h3 {
+    margin-top: 10px;
+    color: white;
+}
+
+.title p {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.content .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .left p {
+    font-size: 14px;
+    margin-left: 5px;
+    color: hsl(178, 100%, 50%);
+}
+
+.content .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content .right p {
+    font-size: 14px;
+    margin-left: 5px;
+    color: hsl(215, 51%, 70%);
+}
+    
+.avatar {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+    align-items: center;
+    border-top: 1px solid hsla(215, 52%, 70%, 0.301);
+    padding: 10px;
+}
+
+.avatar img {
+    width: 28px;
+    margin-right: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.avatar p {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+.avatar a {
+    color: white;
+    text-decoration: none;
+}
+
+.avatar a:hover {
+    text-decoration: underline;
+}
