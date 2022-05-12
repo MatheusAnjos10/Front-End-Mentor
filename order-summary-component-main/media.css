@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    main {
+        width: 325px;
+    }
+
+    .top img {
+        width: 325px;
+    }
+}
