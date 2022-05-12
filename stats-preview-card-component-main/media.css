@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px) {
+    body {
+    height: 800px;
+    margin-bottom: 152px;
+    }
+   
+    main {
+        flex-direction: column-reverse;
+        width: 335px;
+        height: 842px;
+        margin-top: 200px;
+    }
+
+    .left {
+        width: 335px;
+    }
+
+    .left h2 {
+        text-align: center;
+        width: 335px;
+        margin: auto;
+    }
+
+    .p-left {
+        text-align: center;
+        width: 335px;
+        margin: auto;
+    }
+
+    .footer {
+        gap: 29px;
+        margin: auto;
+        margin-left: 40px;
+        width: 335px;
+        margin-top: 75px;
+        font-size: 8px;
+        padding-bottom: 20px;
+    }
+
+    .right {
+        width: 335px;
+        margin-top: 200px;
+    }
+
+    .right img {
+        width: 335px;
+    }
+
+}
