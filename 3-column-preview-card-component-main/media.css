@@ -17,9 +17,21 @@
         border-top-right-radius: 15px;
     }
 
+    .sedans button {
+        margin-bottom: 30px;
+    }
+
+    .suvs button {
+        margin-bottom: 30px;
+    }
+
     .luxury {
         border-bottom-left-radius: 15px;
         border-top-right-radius: 0px;
+    }
+
+    .luxury button {
+        margin-bottom: 30px;
     }
 }
     
