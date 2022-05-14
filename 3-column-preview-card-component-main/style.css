@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.sedans {
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    background-color: #e38826;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.sedans img {
+    padding: 25px;
+}
+
+.sedans h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-left: 25px;
+}
+
+.sedans p {
+    width: 222px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: normal;
+}
+
+.sedans button {
+    margin-left: 25px;
+    margin-top: 100px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    color: #e38826;
+    cursor: pointer;
+}
+
+.sedans button:hover{
+    background-color: #e38826;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.suvs {
+    padding: 10px;
+    width: 300px;
+    background-color: #006970;
+}
+
+.suvs img {
+    padding: 25px;
+}
+
+.suvs h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-left: 25px;
+}
+
+.suvs p {
+    width: 222px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: normal;
+}
+
+.suvs button {
+    margin-left: 25px;
+    margin-top: 100px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    color: #006970;
+    cursor: pointer;
+}
+
+.suvs button:hover {
+    background-color: #006970;
+    color: white;
+    border: 2px solid white;
+}
+
+.luxury {
+    padding: 10px;
+    width: 300px;
+    background-color: #004241;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.luxury img {
+    padding: 25px;
+}
+
+.luxury h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    margin-left: 25px;
+}
+
+.luxury p {
+    width: 222px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: normal;
+}
+
+.luxury button {
+    margin-left: 25px;
+    margin-top: 100px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    font-weight: 700;
+    color: #004241;
+    cursor: pointer;
+}
+
+.luxury button:hover{
+    background-color: #004241;
+    color: white;
+    border: 2px solid white;
+}

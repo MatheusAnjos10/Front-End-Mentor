@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px){
+    body{
+        height: auto;
+    }
+    
+    main {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sedans {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 15px;
+    }
+
+    .luxury {
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0px;
+    }
+}
+    
