@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .header {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .header p {
+        width: 280px;
+        text-align: center;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+    .left {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    .card-center-bottom-white {
+        margin-left: -25px;
+    }
+
+    .card-center-top-white {
+        margin-left: -25px;
+    }
+
+   
+
+    .right {
+        margin-top: -50px;
+        margin-bottom: 50px;
+        margin-left: 113px;
+    }
+
+    .card-center-bottom {
+        margin-bottom: 10px;
+    }
+}
