@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'League Spartan', sans-serif;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.top {
+    display: flex;
+    gap: 30px;
+}
+
+.left {
+    width: 385px;
+}
+
+.left h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.left p {
+    width: 385px;
+    margin-left: 30px;
+    color: #937B92;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 22.5px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.rated-star-1 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-self: center;
+    width: 400px;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.rated-star-1 img {
+    margin-right: 3px;
+    display: block;
+}
+
+.rated-star-1 h4 {
+    font-size: 15px;
+    color: #502050;
+    margin-left: 35px;
+    margin-top: 3px;
+}
+
+.rated-star-2 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-self: center;
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 108px;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.rated-star-2 img {
+    margin-right: 3px;
+    display: block;
+}
+
+.rated-star-2 h4 {
+    font-size: 15px;
+    color: #502050;
+    margin-left: 35px;
+    margin-top: 3px;
+}
+
+.rated-star-3 {
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+    align-self: center;
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 216px;
+    border-radius: 8px;
+    padding-left: 30px;
+}
+
+.rated-star-3 img {
+    margin-right: 3px;
+    display: block;
+}
+
+.rated-star-3 h4 {
+    font-size: 15px;
+    color: #502050;
+    margin-left: 35px;
+    margin-top: 3px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.rated-1 {
+    background-color: #502050;
+    width: 320px;
+    height: 209px;
+    margin-top: 65px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.top-rated-1 {
+    display: flex;
+    align-items: center;
+}
+
+.face-rated-1 img {
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.title-rated-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#name {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+
+#check {
+    font-size: 17px;
+    color: #EE68A4;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.bottom-rated-1 {
+    width: 280px;
+    height: 90px;
+}
+
+.bottom-rated-1 p {
+    font-size: 15px;
+    color: #F7F2F7;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 22.5px;
+}
+
+.rated-2 {
+    background-color: #502050;
+    width: 320px;
+    height: 209px;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.top-rated-2 {
+    display: flex;
+    align-items: center;
+}
+
+.face-rated-2 img {
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.title-rated-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bottom-rated-2 {
+    width: auto;
+    height: auto;
+}
+
+.bottom-rated-2 p {
+    font-size: 15px;
+    color: #F7F2F7;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 22.5px;
+}
+
+.rated-3 {
+    background-color: #502050;
+    width: 320px;
+    height: 209px;
+    margin-top: 115px;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.top-rated-3 {
+    display: flex;
+    align-items: center;
+}
+
+.face-rated-3 img {
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.title-rated-3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bottom-rated-3 {
+    width: auto;
+    height: auto;
+}
+
+.bottom-rated-3 p {
+    font-size: 15px;
+    color: #F7F2F7;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 22.5px;
+}
