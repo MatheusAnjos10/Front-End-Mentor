@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        margin-top: -120px;
+    }
+
+    .left h1 {
+        font-size: 32px;
+        margin: auto;
+        width: 330px;
+    }
+
+    .left p {
+        width: 330px;
+    }
+
+    .top {
+        width: 330px;
+        margin: auto;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        margin-right: 30px;
+    }
+
+    .top p {
+        font-size: 15px;
+    }
+
+    .mid {
+        width: 330px;
+        text-align: center;
+        margin-right: 30px;
+        margin-bottom: 90px;
+    }
+
+    .mid input {
+        width: 235px;
+    }
+
+    button {
+        width: 235px;
+    }
+
+    .mid p {
+        width: 235px;
+    }
+
+}
