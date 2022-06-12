@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        height: 600px;
+        width: 260px;
+    }
+
+    .left {
+        flex-direction: column;
+        height: 600px;
+        width: 260px;
+    }
+
+    .left img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .right {
+        flex-direction: column;
+        height: 600px;
+        width: 260px;
+        text-align: center;
+    }
+
+    .right h2 {
+        width: auto;
+    }
+
+    .right #pp {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .buttom-share {
+        margin-right: 40px;
+    }
+}
