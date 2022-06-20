@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #bdbafa;
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    margin-left: 60px;
+}
+
+header .links {
+    font-family: 'Raleway', sans-serif;
+    margin-right: 60px;
+}
+
+.links a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #070439;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.content-1 {
+    width: auto;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-c1 h2 {
+    width: auto;
+    height: auto;
+    text-align: center;
+    text-align: justify;
+    color: #070439;
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.left-c1 p {
+    margin-left: 70px;
+    margin-top: 15px;
+    color: #070439;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.form-c1 {
+    margin-top: 15px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.form-c1 input {
+    padding: 10px;
+    width: 355px;
+    border-radius: 5px;
+    border: 2px solid #bdbafa;
+    outline: none;
+}
+
+.form-c1 input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-c1 button {
+    padding: 10px;
+    margin-left: 15px;
+    width: 150px;
+    background-color: #3065f8;
+    color: #fff;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #3065f8;
+}
+
+.form-c1 button:hover {
+    background-color: #fff;
+    color: #3065f8;
+}
+
+.right-c1 img {
+    width: 600px;
+    margin-right: 10px;
+}
+
+.content-2 {
+    width: 100%;
+    height: 620px;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: 500% 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-c2 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: #070439;
+}
+
+.left-c2 p {
+    margin-left: 70px;
+    margin-top: 15px;
+    color: #070439;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.left-c2 a {
+    margin-left: 70px;
+    text-decoration: none;
+    color: #3da08f;
+}
+
+.link-green {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link-green img {
+    width: 20px;
+}
+
+.link-green a:hover {
+    text-decoration: underline;
+}
+
+.coment-c2 {
+    padding: 10px;
+    margin-left: 70px;
+    width: 445px;
+    height: 265px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(191, 191, 191, 0.25) 0px 10px 15px -3px, rgba(191, 191, 191, 0.25) 0px 4px 6px -4px;
+    border-radius: 8px;
+}
+
+.coment-c2 img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.coment-c2 p {
+    margin-left: 20px;
+}
+
+.perfil-c2 {
+    display: flex;
+}
+
+.perfil-c2 img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.name-perfil-c2 p {
+    color: #070439;
+}
+
+#name {
+    font-weight: bold;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+#leg {
+    margin-top: -15px;
+    font-size: 13px;
+}
+
+.content-3 {
+    background-color: #585989;
+    width: 100%;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-c3 {
+    margin-right: 110px;
+}
+
+.left-c3 h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.left-c3 p {
+    color: #fff;
+    width: 500px;
+    margin-top: 15px;
+}
+
+.right-c3 {
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-c3 input {
+    width: 445px;
+    padding: 13px;
+    border-radius: 5px;
+    border: 2px solid #585989;
+    outline: none;
+}
+
+.right-c3 input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-c3 button {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    width: 185px;
+    padding: 13px;
+    background-color: #3065f8;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.right-c3 button:hover {
+    background-color: #0d4af0;
+}
+
+footer {
+    background-color: #070439;
+    color: #fff;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.left-f {
+    margin-left: 70px;
+    margin-bottom: 70px;
+}
+
+.phone {
+    display: flex;
+    margin-top: 15px;
+    gap: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.phone p {
+    font-size: 15px;
+}
+
+.phone img {
+    width: 15px;
+}
+
+.email {
+    display: flex;
+    margin-top: 17px;
+    gap: 15px;
+}
+
+.email p {
+    font-size: 15px;
+}
+
+.email img {
+    width: 21px;
+}
+
+.mid1-f {
+    margin-left: 230px;
+    margin-top: 75px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.mid1-f p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.mid1-f p:hover {
+    text-decoration: underline;
+}
+
+.mid2-f {
+    margin-left: 230px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin-top: 50px
+}
+
+.mid2-f p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.mid2-f p:hover {
+    text-decoration: underline;
+}
+
+.right-f {
+    margin-left: 180px;
+}
+
+.right-f a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.fa-facebook:hover {
+    background-color: #fff;
+    color: #0d4af0;
+}
+
+.fa-twitter:hover {
+    color: #29a4d9;
+    background-color: #fff;
+}
+
+.fa-instagram:hover {
+    background-image: linear-gradient(to bottom right, #4C48D9, #C52692, #F22259, #F25749, #F2AA52);
+}
+
+
+
+
+
+
+
